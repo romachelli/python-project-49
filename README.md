@@ -2,6 +2,7 @@
 [![Actions Status](https://github.com/romachelli/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/romachelli/python-project-49/actions)
 
    Header:
+
    My first project with 5 brain games.
 
    Package installation:

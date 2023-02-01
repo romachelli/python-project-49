@@ -10,8 +10,11 @@
    2. make package-install
    3. make publish
 
-      1. Brain-even:
+                  1.Brain-even:
 <a href="https://asciinema.org/a/2Gnyyj0n3U9lx9V6Pr5ZbMZVH" target="_blank"><img src="https://asciinema.org/a/2Gnyyj0n3U9lx9V6Pr5ZbMZVH.svg" /></a>
 
-      2. Brain-calc:
+                  2.Brain-calc:
 <a href="https://asciinema.org/a/ESu2i6uiMm6ONA7oQecYAAa4f" target="_blank"><img src="https://asciinema.org/a/ESu2i6uiMm6ONA7oQecYAAa4f.svg" /></a>
+
+                  3.Brain-gcd:
+<a href="https://asciinema.org/a/KKJ13V1YJpEdNDQyGRC5rA9GX" target="_blank"><img src="https://asciinema.org/a/KKJ13V1YJpEdNDQyGRC5rA9GX.svg" /></a>

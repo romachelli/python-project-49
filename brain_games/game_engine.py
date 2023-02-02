@@ -11,7 +11,7 @@ def greeting_user():
 def logic_brain_games(game):
     greeting_user()
     game.game_rule()
-    winner = f'Congratulation, {name}!'
+    winner = f'Congratulations, {name}!'
     correct_result = 'Correct!'
     game_rounds = 3
 

@@ -13,6 +13,12 @@ brain-calc:
 brain-gcd:
 	poetry run brain-gcd
 
+brain-progression:
+	poetry run brain_progression
+
+brain-prime:
+	poetry run brain_prime
+
 build:
 	poetry build
 

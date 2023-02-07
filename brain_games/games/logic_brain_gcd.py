@@ -11,5 +11,5 @@ def question_and_correct_answer():
     second_number = random.choice(range(50))
     question = f'{first_number} {second_number}'
     correct_answer = str(math.gcd(first_number, second_number))
-    
+
     return question, correct_answer

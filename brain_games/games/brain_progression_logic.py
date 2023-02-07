@@ -11,7 +11,6 @@ def question_and_correct_answer():
     step_of_progression = random.randint(2, 8)
     length_of_progression = random.randint(5, 10)
 
-
     for _ in range(length_of_progression):
         number += step_of_progression
         list_of_progression.append(number)

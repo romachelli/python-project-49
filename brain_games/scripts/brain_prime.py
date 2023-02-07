@@ -2,11 +2,11 @@
 
 
 from brain_games.game_engine import logic_brain_games
-import brain_games.games.brain_prime_logic
+from brain_games.games import brain_prime_logic
 
 
 def main():
-    logic_brain_games(brain_games.games.brain_prime_logic)
+    logic_brain_games(brain_prime_logic)
 
 
 if __name__ == '__main__':

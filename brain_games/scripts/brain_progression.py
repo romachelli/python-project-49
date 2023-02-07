@@ -2,11 +2,11 @@
 
 
 from brain_games.game_engine import logic_brain_games
-import brain_games.games.brain_progression_logic
+from brain_games.games import brain_progression_logic
 
 
 def main():
-    logic_brain_games(brain_games.games.brain_progression_logic)
+    logic_brain_games(brain_progression_logic)
 
 
 if __name__ == '__main__':

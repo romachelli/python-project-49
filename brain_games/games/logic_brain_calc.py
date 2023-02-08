@@ -1,15 +1,14 @@
 import random
-
-
-def game_rule():
-    print('What is the result of the expression?')
+GAME_RULE = 'What is the result of the expression?'
+MIN = 5
+MAX = 50
 
 
 def question_and_correct_answer():
 
-    first_operand = random.choice(range(5, 60))
+    first_operand = random.choice(range(MIN, MAX))
     operator = random.choice(['+', '-', '*'])
-    second_operand = random.choice(range(5, 30))
+    second_operand = random.choice(range(MIN, MAX))
 
     question = f'{first_operand} {operator} {second_operand}'
     correct_answer = str(eval(question))

@@ -8,6 +8,14 @@ LEN_MIN = 5
 LEN_MAX = 10
 
 
+def progress(number, step_of_progression, length_of_progression):
+    list_of_progression = []
+
+    for _ in range(number, step_of_progression, length_of_progression):
+        list_of_progression.append(_)
+    return list_of_progression
+
+
 def question_and_correct_answer():
     list_of_progression = []
     number = random.randint(MIN, MAX)

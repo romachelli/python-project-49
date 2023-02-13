@@ -7,7 +7,7 @@
 
 ### Package installation:
 
-_ 1. make install _
+_1. make install_
 
 _2. make build_
 

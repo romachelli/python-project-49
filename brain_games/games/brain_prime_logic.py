@@ -6,9 +6,9 @@ MAX = 500
 
 def is_prime(num):
     number_div = 0
-    for _ in range(2, num + 1):
-        if (num % _) != 0:
-            number_div += 0
+    for i in range(2, num + 1):
+        if (num % i) != 0:
+            return False
         else:
             number_div += 1
 

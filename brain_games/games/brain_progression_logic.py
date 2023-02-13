@@ -11,8 +11,8 @@ LEN_MAX = 10
 def progress(number, step_of_progression, length_of_progression):
     list_of_progression = []
 
-    for _ in range(number, step_of_progression, length_of_progression):
-        list_of_progression.append(_)
+    for i in range(number, step_of_progression, length_of_progression):
+        list_of_progression.append(i)
     return list_of_progression
 
 

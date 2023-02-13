@@ -1,18 +1,14 @@
 import prompt
-print("Welcome to the Brain Games!")
-name = prompt.string('May I have your name? ')
-game_rounds = 3
-
-
-def greeting_user():
-    return print(f'Hello, {name}!')
+GAME_ROUNDS = 3
 
 
 def logic_brain_games(game):
-    greeting_user()
+    print("Welcome to the Brain Games!")
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
     print(game.GAME_RULE)
 
-    for _ in range(game_rounds):
+    for _ in range(GAME_ROUNDS):
         question, correct_answer = game.question_and_correct_answer()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')

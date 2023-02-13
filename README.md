@@ -7,28 +7,28 @@
 
 ### Package installation:
 
-    *1. make install*
+_ 1. make install _
 
-    *2. make build*
+_2. make build_
 
-    *3. make package-install*
+_3. make package-install_
 
 
-    ***1. Brain-even:***
+___1. Brain-even:___
 <a href="https://asciinema.org/a/2Gnyyj0n3U9lx9V6Pr5ZbMZVH" target="_blank"><img src="https://asciinema.org/a/2Gnyyj0n3U9lx9V6Pr5ZbMZVH.svg" /></a>
 
 
-     ***2. Brain-calc:***
+___2. Brain-calc:___
 <a href="https://asciinema.org/a/ESu2i6uiMm6ONA7oQecYAAa4f" target="_blank"><img src="https://asciinema.org/a/ESu2i6uiMm6ONA7oQecYAAa4f.svg" /></a>
 
 
-    ***3. Brain-gcd:***
+___3. Brain-gcd:___
 <a href="https://asciinema.org/a/KKJ13V1YJpEdNDQyGRC5rA9GX" target="_blank"><img src="https://asciinema.org/a/KKJ13V1YJpEdNDQyGRC5rA9GX.svg" /></a>
 
 
-    ***4. Brain-progression:***
+___4. Brain-progression:___
 <a href="https://asciinema.org/a/0QjzHwBcEdPqQZejagyEm6S8D" target="_blank"><img src="https://asciinema.org/a/0QjzHwBcEdPqQZejagyEm6S8D.svg" /></a>
 
 
-    ***5. Brain-prime:***
+___5. Brain-prime:___
 <a href="https://asciinema.org/a/uo4VvcBnwUhrzEVSiGEVfc2Rk" target="_blank"><img src="https://asciinema.org/a/uo4VvcBnwUhrzEVSiGEVfc2Rk.svg" /></a>

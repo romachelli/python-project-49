@@ -5,7 +5,7 @@ MAX = 500
 
 
 def is_prime(num):
-    number_div = 0
+
     for i in range(2, num):
         if (num % i) == 0:
             return False

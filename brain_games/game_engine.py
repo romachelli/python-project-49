@@ -20,4 +20,4 @@ def logic_brain_games(game):
                          f'Correct answer was "{correct_answer}".'
                          f"\nLet's try again, {name}!")
 
-    return print(f'Congratulations, {name}!')
+    print(f'Congratulations, {name}!')

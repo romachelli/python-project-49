@@ -4,10 +4,10 @@ MIN = 5
 MAX = 500
 
 
-def is_prime(num):
+def is_prime(question):
 
-    for i in range(2, num):
-        if (num % i) == 0:
+    for i in range(2, question):
+        if (question % i) == 0:
             return False
 
     return True
@@ -15,8 +15,8 @@ def is_prime(num):
 
 def question_and_correct_answer():
     question = random.randint(MIN, MAX)
-    i = 5
-    while question % i != 0:
-        i += 1
-    correct_answer = i == question and "yes" or "no"
+    if is_prime(question):
+        correct_answer = "yes"
+    else:
+        correct_answer = "no"
     return question, correct_answer

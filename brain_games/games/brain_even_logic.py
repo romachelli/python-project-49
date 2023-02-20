@@ -10,5 +10,5 @@ def is_even(question):
 
 def question_and_correct_answer():
     question = random.randint(MIN, MAX)
-    correct_answer = question % 2 == 0 and 'yes' or 'no'
+    correct_answer = "yes" if is_even(question) else "no"
     return question, correct_answer
